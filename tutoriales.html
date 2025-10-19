@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TUTORIALES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .video-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #1c1c1c;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #00d4ff;
+        }
+
+        .ratio iframe {
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            color: #00e1ff;
+            text-shadow: 0 0 10px rgba(0, 225, 255, 0.6);
+        }
+
+        p {
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">TUTORIALES</a>
+
+            <!-- Botón para móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Enlaces del menú -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aplicaciones.html">APLICACIONES WEB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="framework.html">FRAMEWORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creditos.html">CRÉDITOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="tutoriales.html">TUTORIALES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+
+    <div class="container py-5">
+        <h1>🎥 Tutoriales de GitHub</h1>
+        <div class="row g-4">
+            <!-- Video 1 -->
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/44ziZ12rJwU?si=7S5hqn7JX6lycmjW"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Introducción a GitHub</h5>
+                        <p class="card-text">Aprende qué es GitHub y cómo crear tu primer repositorio.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/3XlZWpLwvvo?si=Iqkoz41zrxurOb5E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">¿Cómo usar github?</h5>
+                        <p class="card-text">Aprende a usar git y github de una manera muy sencilla</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/FVeiVprZR6U?si=2zCpUZHYFai05y_A"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Clonar y Crear Ramas</h5>
+                        <p class="card-text">Aprende cómo clonar repositorios y crear ramas desde 0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
